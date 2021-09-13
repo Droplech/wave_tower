@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/iconFont.css">
+  <link rel="stylesheet" href="icon/arrow/fontello.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+  <script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+  <title>WAVE TOWER</title>
+</head>
+
+<body>
+  <header class="home-header home-header_bg">
+    <div class="layout">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col col-2 p-0">
+            <div class="logo">
+              <a href="./index.html">
+                <img src="./images/Logo.svg" alt="logo">
+              </a>
+            </div>
+          </div>
+          <div class="col col-10">
+            <nav class="headNav">
+              <ul>
+                <li>
+                  <a href="./index.html" class="active">
+                    <span class="lang_ukr_txt">
+                      Головна
+                    </span>
+                    <span class="lang_rus_txt">
+                      Главная
+                    </span>
+                    <span class="lang_eng_txt">
+                      Home Page
+                    </span>
+
+                  </a>
+                </li>
+                <li>
+                  <a href="./busines-center.html">
+                    <span class="lang_ukr_txt">
+                      Бізнес-центр
+                    </span>
+                    <span class="lang_rus_txt">
+                      Бизнес-центр
+                    </span>
+                    <span class="lang_eng_txt">
+                      Business center
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="./rent.html">
+                    <span class="lang_ukr_txt">
+                      Оренда
+                    </span>
+                    <span class="lang_rus_txt">
+                      Аренда
+                    </span>
+                    <span class="lang_eng_txt">
+                      Rent
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="./conferenc.html">
+                    <span class="lang_ukr_txt">
+                      Конференц-зали
+                    </span>
+                    <span class="lang_rus_txt">
+                      Конференц-залы
+                    </span>
+                    <span class="lang_eng_txt">
+                      Conference halls
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="./infrastructure.html">
+                    <span class="lang_ukr_txt">
+                      Інфраструктура
+                    </span>
+                    <span class="lang_rus_txt">
+                      Инфраструктура
+                    </span>
+                    <span class="lang_eng_txt">
+                      Infrastructure
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="./news.html">
+                     <span class="lang_ukr_txt">
+                      Новини
+                    </span>
+                    <span class="lang_rus_txt">
+                      Новости
+                    </span>
+                    <span class="lang_eng_txt">
+                      News
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="./contact.html">
+                     <span class="lang_ukr_txt">
+                      Контакти
+                    </span>
+                    <span class="lang_rus_txt">
+                      Контакты
+                    </span>
+                    <span class="lang_eng_txt">
+                      Contacts
+                    </span>
+                  </a>
+                </li>
+                <li class="lang ">
+                  <span class="box">
+                    <a class="dropbtn" id="head_langu" href="#">УКР</a>
+                    <ul class="dropdown-content">
+                      <a href="#" class="langu lang_eng">ENG</a>
+                      <a href="#" class="langu lang_rus">РУС</a>
+                      <a href="#" class="langu lang_ukr">УКР </a>
+                    </ul>
+                  </span>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="hamburger-menu">
+              <input id="menu__toggle" type="checkbox">
+              <label class="menu__btn" for="menu__toggle">
+                <span></span>
+              </label>
+
+              <ul class="menu__box">
+                <!-- <li class="col left">
+									<div class="logo">
+										<a href="./index.html"><img src="images/logo.png" alt="img"></a>
+									</div>
+									<div class="title"><a href="./index.html"><h1>terra aucti</h1></a></div>
+								</li> -->
+                <li><a class="menu__item active" href="./index.html"> <span class="lang_ukr_txt">
+                  Головна
+                </span>
+                <span class="lang_rus_txt">
+                  Главная
+                </span>
+                <span class="lang_eng_txt">
+                  Home Page
+                </span></a></li>
+                <li><a class="menu__item" href="./busines-center.html">
+                  <span class="lang_ukr_txt">
+                  Бізнес-центр
+                </span>
+                <span class="lang_rus_txt">
+                  Бизнес-центр
+                </span>
+                <span class="lang_eng_txt">
+                  Business center
+                </span></a></li>
+                <li><a class="menu__item" href="./rent.html"> 
+                  <span class="lang_ukr_txt">
+                  Оренда
+                </span>
+                <span class="lang_rus_txt">
+                  Аренда
+                </span>
+                <span class="lang_eng_txt">
+                  Rent
+                </span></a></li>
+                <li><a class="menu__item" href="./conferenc.html">
+                  <span class="lang_ukr_txt">
+                    Конференц-зали
+                  </span>
+                  <span class="lang_rus_txt">
+                    Конференц-залы
+                  </span>
+                  <span class="lang_eng_txt">
+                    Conference halls
+                  </span></a></li>
+                <li><a class="menu__item" href="./infrastructure.html"> 
+                  <span class="lang_ukr_txt">
+                  Інфраструктура
+                </span>
+                <span class="lang_rus_txt">
+                  Инфраструктура
+                </span>
+                <span class="lang_eng_txt">
+                  Infrastructure
+                </span></a></li>
+                <li><a class="menu__item" href="./news.html">  
+                  <span class="lang_ukr_txt">
+                  Новини
+                </span>
+                <span class="lang_rus_txt">
+                  Новости
+                </span>
+                <span class="lang_eng_txt">
+                  News
+                </span></a></li>
+                <li><a class="menu__item" href="./contact.html"> 
+                  <span class="lang_ukr_txt">
+                  Контакти
+                </span>
+                <span class="lang_rus_txt">
+                  Контакты
+                </span>
+                <span class="lang_eng_txt">
+                  Contacts
+                </span></a></li>
+                <li class="langMob ">
+                  <span class="box">
+                    <a class="dropbtn" id="head_langu" href="#">УКР</a>
+                    <ul class="dropdown-content">
+                      <a href="#" class="langu lang_eng">ENG</a>
+                      <a href="#" class="langu lang_rus">РУС</a>
+                      <a href="#" class="langu lang_ukr">УКР </a>
+                    </ul>
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+
+
+  <main class="home-main">
+    <div class="layout layout_header_width">
+      <div id="scrollNav">
+        <a href="#heading" class="active">
+          <p class="txt">Wave tower</p><span></span>
+        </a>
+        <a href="#specifications">
+          <p class="txt">Характеристики</p><span></span>
+        </a>
+        <a href="#panorama">
+          <p class="txt">панорама</p><span></span>
+        </a>
+        <a href="#news">
+          <p class="txt">новини</p><span></span>
+        </a>
+        <a href="#map">
+          <p class="txt">карта</p><span></span>
+        </a>
+      </div>
+      <div class="video-bg">
+        <div class="backVideo">
+          <video class="video" src="./video/Business Center~1.mp4" autoplay muted loop></video>
+        </div>
+        <section class="heading" id="heading">
+          <h1>WAVE TOWER</h1>
+          <p class="lang_ukr_txt">
+            Унікальна пропозиця оренди приміщення для вашого бізнесу за низькими цінами!
+          </p>
+          <p class="lang_rus_txt">
+            Уникальное предложение аренды помещения для вашего бизнеса по низким ценам!
+            
+          </p>
+          <p class="lang_eng_txt">
+            Unique offer of rent of premises for your business at low prices!
+
+          </p>
+          <a href="./rent.html" class="looking">
+            <span class="lang_ukr_txt">
+              Переглянути приміщення 
+            </span>
+            <span class="lang_rus_txt">
+              ПРОСМОТРЕТЬ ПОМЕЩЕНИЯ
+            </span>
+            <span class="lang_eng_txt">
+              VIEW THE PREMISES
+            </span>
+            
+          </a>
+        </section>
+        <section class="specifications" id="specifications">
+          <div class="imgbox-bg">
+            <img class="first" src="./images/bg-1.png" alt="">
+            <img class="second" src="./images/index_bg1.png" alt="">
+            <img class="three" src="./images/index_bg0.png" alt="">
+          </div>
+          <div class="container-fluid specifCheck">
+            <div class="row specifications_info">
+              <div class="col col-xs-12 col-sm-12 col-md-6 specifImgbox">
+                <h2 class="mobSpecif">
+                  
+                  <span class="lang_ukr_txt">Характеристики</span>
+                  <span class="lang_rus_txt">ХАРАКТЕРИСТИКИ</span>
+                  <span class="lang_eng_txt">SPECIFICATIONS</span>
+                </h2>
+                <img src="./images/img-specif.png" alt="">
+              </div>
+              <div class="col col-xs-12 col-sm-12 col-md-6 specifications_txt">
+                <h2 class="lang_ukr_txt">Характеристики</h2>
+                <h2 class="lang_rus_txt">ХАРАКТЕРИСТИКИ</h2>
+                <h2 class="lang_eng_txt">SPECIFICATIONS</h2>
+                <div class="row p-0 ">
+                  <div class="col col-lg-5 col-5 left">
+                    <p>
+                      <span class="lang_ukr_txt">Площа будівлі</span>
+                      <span class="lang_rus_txt">Площадь здания</span>
+                      <span class="lang_eng_txt">Building area</span>
+                    </p>
+                    <p>
+                      <span class="lang_ukr_txt">Корисна площа</span>
+                      <span class="lang_rus_txt">Полезная площад</span>
+                      <span class="lang_eng_txt">Usable area</span>
+                    </p>
+                    <p>
+                      <span class="lang_ukr_txt">Поверховість</span>
+                      <span class="lang_rus_txt">Этажность</span>
+                      <span class="lang_eng_txt">Number of storeys</span>
+                    </p>
+                  </div>
+                  <div class="col col-lg-4 col-5 right">
+                    <p>
+                      <span class="lang_ukr_txt">22 000 м2</span>
+                      <span class="lang_rus_txt"> 22 000 м2</span>
+                      <span class="lang_eng_txt">22,000 m2</span>
+                      </p>
+                    <p>
+                      <span class="lang_ukr_txt">18 000 м2</span>
+                      <span class="lang_rus_txt">18 000 м2</span>
+                      <span class="lang_eng_txt">18,000 m2</span>
+                      </p>
+                    <p>
+                      <span class="lang_ukr_txt">22 поверхи</span>
+                      <span class="lang_rus_txt"> 22 этажа</span>
+                      <span class="lang_eng_txt">22 floors</span>
+                      </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row ">
+              <ul class="checkList">
+                <li class="check">
+                  <span class="lang_ukr_txt">10 хв м. Почайна</span>
+                  <span class="lang_rus_txt">10 хв. м. Почайна</span>
+                  <span class="lang_eng_txt">10 minutes to Pochaina metro station</span>
+                  
+
+                </li>
+                <li class="check">
+                  <span class="lang_ukr_txt">Охорона</span>
+                  <span class="lang_rus_txt">Охрана</span>
+                  <span class="lang_eng_txt">Security</span>
+                </li>
+                <li class="check">
+                  <span class="lang_ukr_txt">Протипожежні системи</span>
+                  <span class="lang_rus_txt">Противопожарные системы</span>
+                  <span class="lang_eng_txt">Fire protection systems</span>
+                </li>
+                <li class="check">
+                  <span class="lang_ukr_txt">Загальний ресепшн</span>
+                  <span class="lang_rus_txt">Общий ресепшн</span>
+                  <span class="lang_eng_txt">General reception</span>
+                </li>
+                <li class="check">
+                  <span class="lang_ukr_txt">Сквер поблизу</span>
+                  <span class="lang_rus_txt">Сквер поблизости</span>
+                  <span class="lang_eng_txt">Square nearby</span>
+                </li>
+                <li class="check">
+                  <span class="lang_ukr_txt">Система контролю доступу</span>
+                  <span class="lang_rus_txt">Система контроля доступа</span>
+                  <span class="lang_eng_txt">Access Control System</span>
+                </li>
+                <li class="check">
+                  <span class="lang_ukr_txt">Паркiнг</span>
+                  <span class="lang_rus_txt">Паркинг</span>
+                  <span class="lang_eng_txt">Parking</span>
+                </li>
+                <li class="check">
+                  <span class="lang_ukr_txt">З окремим входом</span>
+                  <span class="lang_rus_txt">С отдельным входом</span>
+                  <span class="lang_eng_txt">With a separate entrance</span>
+                </li>
+                <li class="check">
+                  <span class="lang_ukr_txt">Банки та термiнали</span>
+                  <span class="lang_rus_txt">Банки и терминалы</span>
+                  <span class="lang_eng_txt">Banks and terminals</span>
+                </li>
+                <li class="check">
+                  <span class="lang_ukr_txt">Зовнiшня iнфраструктура</span>
+                  <span class="lang_rus_txt">Внешняя инфраструктура</span>
+                  <span class="lang_eng_txt">External infrastructure</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="layout layout_header_width">
+      <section id="panorama">
+        <div class="panNav">
+          <sapn class="icon-navLeft"></sapn>
+          <span class="icon-navRight"></span>
+        </div>
+        <div class="panorama">
+          <div class="container-fluid">
+            <h2 class="lang_ukr_txt">ПАНОРАМА</h2>
+            <h2 class="lang_rus_txt">ПАНОРАМА</h2>
+            <h2 class="lang_eng_txt">PANORAMA</h2>
+          </div>
+        </div>
+      </section>
+      <section class="news index_news" id="news">
+        <div class="row rowSlider">
+          <div class="col col-xs-12 col-sm-12 col-md-6 slide_txt_block">
+            <h2 class="lang_ukr_txt">НОВИНИ</h2>
+            <h2 class="lang_rus_txt">Новости</h2>
+            <h2 class="lang_eng_txt">News</h2>
+          </div>
+          <div class="col col-xs-12 col-sm-12 col-md-6 slide_block">
+            <ul class="slider slider_news_index">
+              <li class="newsItem">
+                <a href="./newsPage.html">
+                  <img src="./images/news_slide_img1.png" alt="" class="bgImage">
+                  <div class="descriptionn">
+                    <span class="date">01.08.2021</span>
+                    <h4>
+                      <span class="lang_ukr_txt">Бізнес-Центр «Wave Tower» починає  здавати в оренду  нові приміщення.</span>
+                          <span class="lang_rus_txt">Бизнес-центр «Wave Tower» начинает сдавать в аренду новые помещения</span>
+                          <span class="lang_eng_txt">The Wave Tower Business Center starts to rent out new premises</span>
+                    </h4>
+                    <p>
+                      <span class="lang_ukr_txt"> Стартує процес укладання угод про короткочасну та  довготривалу оренду. 
+                        Встигни вчасно та вигідно...</span>
+                      <span class="lang_rus_txt">Стартует процесс заключения соглашений о кратковременную и долговременную аренду. Успей вовремя и выгодно...</span>
+                      <span class="lang_eng_txt">The process of concluding agreements on short-term and long-term lease starts. Hurry up on time and profitably...</span>
+                    </p>
+                    <a class="icon-right-arrow"></a>
+                  </div>
+                </a>
+               
+              </li>
+              <li class="newsItem">
+                <a href="./newsPage2.html">
+                  <img src="./images/news_slide_img2.png" alt="" class="bgImage">
+                  <div class="descriptionn">
+                    <span class="date">15.06.2021</span>
+                    <h4>
+                      <span class="lang_ukr_txt">«Wave Tower» відкриває місце для відпочинку всіх резидентів!</span>
+                      <span class="lang_rus_txt">Бизнес-центр «Wave Tower» открывает место для отдыха всех резидентов!</span>
+                      <span class="lang_eng_txt">Business center «Wave Tower» opens the place for rest of all residents!
+                      </span>
+                    </h4>
+                    <p>
+                      <span class="lang_ukr_txt">Відтепер в кожного є можливість відпочити під час обіду та перерви у новому затишному Wave Cafe.</span>
+                          <span class="lang_rus_txt">Теперь у каждого есть возможность отдохнуть во время обеда и перерыва в новом уютном Wave Cafe. </span>
+                          <span class="lang_eng_txt">Now everyone has the opportunity to relax during lunch and break in the new cosy Wave Cafe.</span>
+                    </p>
+                    <a class="icon-right-arrow"></a>
+                  </div>
+                </a>
+                
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="map" id="map">
+      <div class="map_title">
+        <h2>
+          <span class="lang_ukr_txt">
+            Адреса на карті
+          </span>
+          <span class="lang_rus_txt">
+            Адрес на карте
+          </span>
+          <span class="lang_eng_txt">
+            Address on the map
+          </span>
+          
+        </h2>
+        <p>
+          <span class="lang_ukr_txt">м. Київ, пр-т Степана Бандери 9Б</span>
+          <span class="lang_rus_txt">г. Киев, пр-т Степана Бандеры 9Б</span>
+          <span class="lang_eng_txt">Kyiv, Stepan Bandera Prospekt 9B</span>
+        </p>
+      </div>
+      
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2538.411634514656!2d30.476964815732863!3d50.489296179480725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cdd0d6edf517%3A0x9ca0c40c2f940c61!2sWave%20Tower!5e0!3m2!1sru!2sua!4v1630330733712!5m2!1sru!2sua"
+        width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+  </main>
+
+
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row mobFooter">
+        <div class="col col-xs-12 col-sm-12 col-md-3">
+          <div class="logo">
+            <a href="./index.html">
+              <img src="./images/logo_footer.svg" alt="logo">
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 footerNav">
+          <div class="row">
+            <div class="col col-xs-12 col-sm-12 col-md-6">
+              <a href="./busines-center.html">
+                
+                <span class="lang_ukr_txt">Бізнес-центр </span>
+                <span class="lang_rus_txt">Бизнес-центр</span>
+                <span class="lang_eng_txt">Business centre</span>
+              </a>
+              <a href="./rent.html">
+                <span class="lang_ukr_txt">Оренда</span>
+                <span class="lang_rus_txt">Аренда</span>
+                <span class="lang_eng_txt">Rent</span>
+              </a>
+              <a href="./conferenc.html">
+                <span class="lang_ukr_txt">Конференц-зали</span>
+                <span class="lang_rus_txt">Конференц-залы</span>
+                <span class="lang_eng_txt">Conference rooms</span>
+              </a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+              <a href="./infrastructure.html">
+                <span class="lang_ukr_txt">Інфраструктура</span>
+                <span class="lang_rus_txt">Инфраструктура</span>
+                <span class="lang_eng_txt">Infrastructure</span>
+              </a>
+              <a href="./news.html">
+                <span class="lang_ukr_txt">Новини</span>
+                <span class="lang_rus_txt">Новости</span>
+                <span class="lang_eng_txt">News</span>
+              </a>
+              <a href="./contact.html">
+                <span class="lang_ukr_txt">Контакти </span>
+                <span class="lang_rus_txt">Контакты</span>
+                <span class="lang_eng_txt">Contacts</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-xs-12 col-sm-12 col-md-3 number_adress">
+          <p class="number">+380(63)02-11-822 </p>
+          <p class="adress">
+            <span class="lang_ukr_txt">м. Київ, пр-т Степана Бандери 9Б</span>
+            <span class="lang_rus_txt">г. Киев, пр-т Степана Бандеры 9Б</span>
+            <span class="lang_eng_txt">Kyiv, Stepan Bandera Prospekt 9B</span>
+          </p>
+        </div>
+      </div>
+      <div class="row copyright">
+        <p>Copyright © 2021</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/iconFont.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+  <script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+  <title>WAVE TOWER</title>
+</head>
+
+<body>
+  <header class="home-header ">
+    <div class="layout">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col col-2 p-0">
+            <div class="logo">
+              <a href="./index.html">
+                <img src="./images/Logo.svg" alt="logo">
+              </a>
+            </div>
+          </div>
+          <div class="col col-10">
+            <nav class="headNav">
+              <ul>
+                <li>
+                  <a href="./index.html" >
+                    <span class="lang_ukr_txt">
+                      Головна
+                    </span>
+                    <span class="lang_rus_txt">
+                      Главная
+                    </span>
+                    <span class="lang_eng_txt">
+                      Home Page
+                    </span>
+
+                  </a>
+                </li>
+                <li>
+                  <a href="./busines-center.html" class="active">
+                    <span class="lang_ukr_txt">
+                      Бізнес-центр
+                    </span>
+                    <span class="lang_rus_txt">
+                      Бизнес-центр
+                    </span>
+                    <span class="lang_eng_txt">
+                      Business center
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="./rent.html">
+                    <span class="lang_ukr_txt">
+                      Оренда
+                    </span>
+                    <span class="lang_rus_txt">
+                      Аренда
+                    </span>
+                    <span class="lang_eng_txt">
+                      Rent
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="./conferenc.html">
+                    <span class="lang_ukr_txt">
+                      Конференц-зали
+                    </span>
+                    <span class="lang_rus_txt">
+                      Конференц-залы
+                    </span>
+                    <span class="lang_eng_txt">
+                      Conference halls
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="./infrastructure.html">
+                    <span class="lang_ukr_txt">
+                      Інфраструктура
+                    </span>
+                    <span class="lang_rus_txt">
+                      Инфраструктура
+                    </span>
+                    <span class="lang_eng_txt">
+                      Infrastructure
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="./news.html">
+                     <span class="lang_ukr_txt">
+                      Новини
+                    </span>
+                    <span class="lang_rus_txt">
+                      Новости
+                    </span>
+                    <span class="lang_eng_txt">
+                      News
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="./contact.html">
+                     <span class="lang_ukr_txt">
+                      Контакти
+                    </span>
+                    <span class="lang_rus_txt">
+                      Контакты
+                    </span>
+                    <span class="lang_eng_txt">
+                      Contacts
+                    </span>
+                  </a>
+                </li>
+                <li class="lang ">
+                  <span class="box">
+                    <a class="dropbtn" id="head_langu" href="#">УКР</a>
+                    <ul class="dropdown-content">
+                      <a href="#" class="langu lang_eng">ENG</a>
+                      <a href="#" class="langu lang_rus">РУС</a>
+                      <a href="#" class="langu lang_ukr">УКР </a>
+                    </ul>
+                  </span>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="hamburger-menu">
+              <input id="menu__toggle" type="checkbox">
+              <label class="menu__btn" for="menu__toggle">
+                <span></span>
+              </label>
+
+              <ul class="menu__box">
+                <!-- <li class="col left">
+									<div class="logo">
+										<a href="./index.html"><img src="images/logo.png" alt="img"></a>
+									</div>
+									<div class="title"><a href="./index.html"><h1>terra aucti</h1></a></div>
+								</li> -->
+                <li><a class="menu__item " href="./index.html"> <span class="lang_ukr_txt">
+                  Головна
+                </span>
+                <span class="lang_rus_txt">
+                  Главная
+                </span>
+                <span class="lang_eng_txt">
+                  Home Page
+                </span></a></li>
+                <li><a class="menu__item active" href="./busines-center.html">
+                  <span class="lang_ukr_txt">
+                  Бізнес-центр
+                </span>
+                <span class="lang_rus_txt">
+                  Бизнес-центр
+                </span>
+                <span class="lang_eng_txt">
+                  Business center
+                </span></a></li>
+                <li><a class="menu__item" href="./rent.html"> 
+                  <span class="lang_ukr_txt">
+                  Оренда
+                </span>
+                <span class="lang_rus_txt">
+                  Аренда
+                </span>
+                <span class="lang_eng_txt">
+                  Rent
+                </span></a></li>
+                <li><a class="menu__item" href="./conferenc.html">
+                  <span class="lang_ukr_txt">
+                    Конференц-зали
+                  </span>
+                  <span class="lang_rus_txt">
+                    Конференц-залы
+                  </span>
+                  <span class="lang_eng_txt">
+                    Conference halls
+                  </span></a></li>
+                <li><a class="menu__item" href="./infrastructure.html"> 
+                  <span class="lang_ukr_txt">
+                  Інфраструктура
+                </span>
+                <span class="lang_rus_txt">
+                  Инфраструктура
+                </span>
+                <span class="lang_eng_txt">
+                  Infrastructure
+                </span></a></li>
+                <li><a class="menu__item" href="./news.html">  
+                  <span class="lang_ukr_txt">
+                  Новини
+                </span>
+                <span class="lang_rus_txt">
+                  Новости
+                </span>
+                <span class="lang_eng_txt">
+                  News
+                </span></a></li>
+                <li><a class="menu__item" href="./contact.html"> 
+                  <span class="lang_ukr_txt">
+                  Контакти
+                </span>
+                <span class="lang_rus_txt">
+                  Контакты
+                </span>
+                <span class="lang_eng_txt">
+                  Contacts
+                </span></a></li>
+                <li class="langMob ">
+                  <span class="box">
+                    <a class="dropbtn" id="head_langu" href="#">УКР</a>
+                    <ul class="dropdown-content">
+                      <a href="#" class="langu lang_eng">ENG</a>
+                      <a href="#" class="langu lang_rus">РУС</a>
+                      <a href="#" class="langu lang_ukr">УКР </a>
+                    </ul>
+                  </span>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+  <main class="home-main">
+    <div class="layout layout_header_width">
+      <!-- <div id="scrollNav">
+          <a href="#heading" class="active"><p class="txt">Wave tower</p><span></span></a>
+          <a href="#specifications"><p class="txt">Характеристики</p><span></span></a>
+          <a href="#panorama"><p class="txt">панорама</p><span></span></a>
+          <a href="#news"><p class="txt">новини</p><span></span></a>
+          <a href="#map"><p class="txt">карта</p><span></span></a>
+        </div> -->
+      <div class="firstBlock">
+        <div class="container">
+          <div class="row">
+            <h1 class="lang_ukr_txt">БІЗНЕС-ЦЕНТР</h1>
+            <h1 class="lang_rus_txt">БИЗНЕС-ЦЕНТР</h1>
+            <h1 class="lang_eng_txt">BUSINESS CENTER</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container padBot-80">
+        <div class="row p-0">
+          <h2 class="lang_ukr_txt">ДИЗАЙН І АРХІТЕКТУРА</h2>
+          <h2 class="lang_rus_txt">ДИЗАЙН И АРХИТЕКТУРА</h2>
+          <h2 class="lang_eng_txt">DESIGN ANF ARCHITECTURE</h2>
+          <p class="lang_ukr_txt">
+            Вражаючий зовнішній вигляд, який зачаровує з першого погляду. Колоподібна форма та скління будівлі виглядає
+            досить модернізовано,
+            а також забезпечує максимально природнє освітлення.
+            Бізнес-центр Wawe Tower збудовано відповідно до найвищих стандартів міжнародної класифікації офісних ценрів
+            А+. Технічні рішення
+            та якість всіх систем БЦ повністю відповідають заявленним нормам.
+          </p>
+         
+          <p class="lang_rus_txt">
+            Впечатляющий внешний вид, который очаровывает с первого взгляда. Кругообразная форма и остекления здания выглядят достаточно современно, а также обеспечивают максимально естественное освещение.
+
+Бизнес-центр Wawe Tower построен в соответствии с самыми высокими стандартами международной классификации офисных центров А +. Технические решения и качество всех систем БЦ полностью соответствуют заявленным нормам.
+
+          </p>
+          
+          <p class="lang_eng_txt">
+            The impressive appearance fascinates at first sight. The circular shape and glazing of the building look quite modernized and also provides maximum natural light.
+
+The Business Center Wave Tower is built according to the highest standards of the international classification of A + office centers. Technical solutions and quality of all Business Center’s systems fully meet the stated standards.
+
+          </p>
+          <a href="./busInterier.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+            <div class="imgBox">
+              <img src="./images/busines-img-1.png" alt="">
+              <div class="aboutCard">
+                <div class="about">
+                  <h3 class="name lang_ukr_txt">
+                    Інтер‘єр
+                  </h3>
+                  <h3 class="name lang_rus_txt">
+                    Интерьер
+                  </h3>
+                  <h3 class="name lang_eng_txt">
+                    Interior
+                  </h3>
+                  <span class="descr">
+                    <span class="lang_ukr_txt">
+                      Виконаний згідно основним критеріям сучасного стилю-простоті та лаконічності
+                    </span>
+                    <span class="lang_rus_txt">
+                      Выполненный согласно основным критериям современного стиля-простоте и лаконичности
+
+                    </span>
+                    <span class="lang_eng_txt">
+                      Made according to the main criteria of modern style - simplicity and brevity
+
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="./busBuild.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+            <div class="imgBox">
+              <img src="./images/busines-img-2.png" alt="">
+              <div class="aboutCard">
+                <div class="about">
+                  <h3 class="name lang_ukr_txt">
+                    Будівля
+                  </h3>
+                  <h3 class="name lang_rus_txt">
+                    Здание
+                  </h3>
+                  <h3 class="name lang_eng_txt">
+                    Building
+                  </h3>
+                  <span class="descr">
+                    <span class="lang_ukr_txt">
+                      Виконаний згідно основним критеріям сучасного стилю-простоті та лаконічності
+                    </span>
+                    <span class="lang_rus_txt">
+                      Выполненный согласно основным критериям современного стиля-простоте и лаконичности
+
+                    </span>
+                    <span class="lang_eng_txt">
+                      Made according to the main criteria of modern style - simplicity and brevity
+
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="./busTerraces.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+            <div class="imgBox">
+              <img src="./images/busines-img-3.png" alt="">
+              <div class="aboutCard">
+                <div class="about">
+                  <h3 class="name lang_ukr_txt">
+                    Тераси
+                  </h3>
+                  <h3 class="name lang_rus_txt">
+                    Террасы
+                  </h3>
+                  <h3 class="name lang_eng_txt">
+                    Terraces
+                  </h3>
+                  <span class="descr">
+                    <span class="lang_ukr_txt">
+                      Виконаний згідно основним критеріям сучасного стилю-простоті та лаконічності
+                    </span>
+                    <span class="lang_rus_txt">
+                      Выполненный согласно основным критериям современного стиля-простоте и лаконичности
+
+                    </span>
+                    <span class="lang_eng_txt">
+                      Made according to the main criteria of modern style - simplicity and brevity
+
+                    </span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="./busElevator.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+            <div class="imgBox">
+              <img src="./images/busines-img-4.png" alt="">
+              <div class="aboutCard">
+                <div class="about">
+                  <h3 class="name lang_ukr_txt">
+                    Ліфтова система
+                  </h3>
+                  <h3 class="name lang_rus_txt">
+                    Лифтовая система
+                  </h3>
+                  <h3 class="name lang_eng_txt">
+                    Elevator system
+                  </h3>
+                  <span class="descr">
+                    <span class="lang_ukr_txt">
+                      Виконаний згідно основним критеріям сучасного стилю-простоті та лаконічності
+                    </span>
+                    <span class="lang_rus_txt">
+                      Выполненный согласно основным критериям современного стиля-простоте и лаконичности
+
+                    </span>
+                    <span class="lang_eng_txt">
+                      Made according to the main criteria of modern style - simplicity and brevity
+
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="./busVent.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+            <div class="imgBox">
+              <img src="./images/busines-img-52.png" alt="">
+              <div class="aboutCard">
+                <div class="about">
+                  <h3 class="name lang_ukr_txt">
+                    Кондиціонування і опалення
+                  </h3>
+                  <h3 class="name lang_rus_txt">
+                    Кондиционирование и отопление
+                  </h3>
+                  <h3 class="name lang_eng_txt">
+                    Air conditioning and heating
+                  </h3>
+                  <span class="descr">
+                    <span class="lang_ukr_txt">
+                      Виконаний згідно основним критеріям сучасного стилю-простоті та лаконічності
+                    </span>
+                    <span class="lang_rus_txt">
+                      Выполненный согласно основным критериям современного стиля-простоте и лаконичности
+
+                    </span>
+                    <span class="lang_eng_txt">
+                      Made according to the main criteria of modern style - simplicity and brevity
+
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="./busGlas.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+            <div class="imgBox">
+              <img src="./images/busines-img-6.png" alt="">
+              <div class="aboutCard">
+                <div class="about">
+                  <h3 class="name lang_ukr_txt">
+                    Скління
+                  </h3>
+                  <h3 class="name lang_rus_txt">
+                    Остекление
+                  </h3>
+                  <h3 class="name lang_eng_txt">
+                    Glazing
+                  </h3>
+                  <span class="descr">
+                    <span class="lang_ukr_txt">
+                      Виконаний згідно основним критеріям сучасного стилю-простоті та лаконічності
+                    </span>
+                    <span class="lang_rus_txt">
+                      Выполненный согласно основным критериям современного стиля-простоте и лаконичности
+
+                    </span>
+                    <span class="lang_eng_txt">
+                      Made according to the main criteria of modern style - simplicity and brevity
+
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="./busFireSec.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+            <div class="imgBox">
+              <img src="./images/busines-img-7.png" alt="">
+              <div class="aboutCard">
+                <div class="about">
+                  <h3 class="name lang_ukr_txt">
+                    Пожежна безпека
+                  </h3>
+                  <h3 class="name lang_rus_txt">
+                    Пожарная безопасность
+                  </h3>
+                  <h3 class="name lang_eng_txt">
+                    Fire Security
+                  </h3>
+                  <span class="descr">
+                    <span class="lang_ukr_txt">
+                      Виконаний згідно основним критеріям сучасного стилю-простоті та лаконічності
+                    </span>
+                    <span class="lang_rus_txt">
+                      Выполненный согласно основным критериям современного стиля-простоте и лаконичности
+
+                    </span>
+                    <span class="lang_eng_txt">
+                      Made according to the main criteria of modern style - simplicity and brevity
+
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="busElectr.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+            <div class="imgBox">
+              <img src="./images/busines-img-8.png" alt="">
+              <div class="aboutCard">
+                <div class="about">
+                  <h3 class="name lang_ukr_txt">
+                    Електропостачання
+                  </h3>
+                  <h3 class="name lang_rus_txt">
+                    Электроснабжение
+                  </h3>
+                  <h3 class="name lang_eng_txt">
+                    Power supply
+                  </h3>
+                  <span class="descr">
+                    <span class="lang_ukr_txt">
+                      Виконаний згідно основним критеріям сучасного стилю-простоті та лаконічності
+                    </span>
+                    <span class="lang_rus_txt">
+                      Выполненный согласно основным критериям современного стиля-простоте и лаконичности
+
+                    </span>
+                    <span class="lang_eng_txt">
+                      Made according to the main criteria of modern style - simplicity and brevity
+
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="./busSecurity.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+            <div class="imgBox">
+              <img src="./images/busines-img-9.png" alt="">
+              <div class="aboutCard">
+                <div class="about">
+                  <h3 class="name lang_ukr_txt">
+                    Система безпеки
+                  </h3>
+                  <h3 class="name lang_rus_txt">
+                    Система безопасности
+                  </h3>
+                  <h3 class="name lang_eng_txt">
+                    Security system
+                  </h3>
+                  <span class="descr">
+                    <span class="lang_ukr_txt">
+                      Виконаний згідно основним критеріям сучасного стилю-простоті та лаконічності
+                    </span>
+                    <span class="lang_rus_txt">
+                      Выполненный согласно основным критериям современного стиля-простоте и лаконичности
+
+                    </span>
+                    <span class="lang_eng_txt">
+                      Made according to the main criteria of modern style - simplicity and brevity
+
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="row p-0 busines_center_wrapper">
+          <h2 class="lang_ukr_txt">ПРИВІЛЕЇ</h2>
+          <h2 class="lang_rus_txt">ПРИВИЛЕГИИ</h2>
+          <h2 class="lang_eng_txt">PRIVILEGES</h2>
+          <p class="lang_ukr_txt">
+            Wawe Tower надає особливі переваги для представників верхівки компаній. Керівники матимуть доступ до VIP
+            послуг.
+          </p>
+          <p class="lang_rus_txt">
+            Wave Tower предоставляет особые преимущества для представителей верхушки компаний. Руководители будут иметь доступ к VIP услугам.
+
+          </p>
+          <p class="lang_eng_txt">
+            Wave Tower provides special benefits to company executives. The chairman will have access to VIP services.
+          </p>
+          <a href="./busParkingVIP.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+            <div class="imgBox">
+              <img src="./images/busines-img-10.png" alt="">
+              <div class="aboutCard">
+                <div class="about">
+                  <h3 class="name lang_ukr_txt">
+                    Зона <span class="font_size_span">VIP</span>-паркінгу
+                  </h3>
+                  <h3 class="name lang_rus_txt">
+                    Зона <span class="font_size_span">VIP</span>-паркинга
+                  </h3>
+                  <h3 class="name lang_eng_txt">
+                    VIP parking area
+                  </h3>
+                  <span class="descr">
+                    <span class="lang_ukr_txt">
+                      Виконаний згідно основним критеріям сучасного стилю-простоті та лаконічності
+                    </span>
+                    <span class="lang_rus_txt">
+                      Выполненный согласно основным критериям современного стиля-простоте и лаконичности
+
+                    </span>
+                    <span class="lang_eng_txt">
+                      Made according to the main criteria of modern style - simplicity and brevity
+
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="./busElevatorVIP.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+            <div class="imgBox">
+              <img src="./images/busines-img-11.png" alt="">
+              <div class="aboutCard">
+                <div class="about">
+                  <h3 class="name lang_ukr_txt">
+                    <span class="font_size_span">VIP</span>-ліфт 
+                  </h3>
+                  <h3 class="name lang_rus_txt">
+                    <span class="font_size_span">VIP</span>-лифт
+                  </h3>
+                  <h3 class="name lang_eng_txt">
+                    VIP-elevator
+                  </h3>
+                  <span class="descr">
+                    <span class="lang_ukr_txt">
+                      Виконаний згідно основним критеріям сучасного стилю-простоті та лаконічності
+                    </span>
+                    <span class="lang_rus_txt">
+                      Выполненный согласно основным критериям современного стиля-простоте и лаконичности
+
+                    </span>
+                    <span class="lang_eng_txt">
+                      Made according to the main criteria of modern style - simplicity and brevity
+
+                    </span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+  </main>
+  <footer>
+    <div class="container-fluid">
+      <div class="row mobFooter">
+        <div class="col col-xs-12 col-sm-12 col-md-3">
+          <div class="logo">
+            <a href="./index.html">
+              <img src="./images/logo_footer.svg" alt="logo">
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 footerNav">
+          <div class="row">
+            <div class="col col-xs-12 col-sm-12 col-md-6">
+              <a href="./busines-center.html">
+                
+                <span class="lang_ukr_txt">Бізнес-центр </span>
+                <span class="lang_rus_txt">Бизнес-центр</span>
+                <span class="lang_eng_txt">Business centre</span>
+              </a>
+              <a href="./rent.html">
+                <span class="lang_ukr_txt">Оренда</span>
+                <span class="lang_rus_txt">Аренда</span>
+                <span class="lang_eng_txt">Rent</span>
+              </a>
+              <a href="./conferenc.html">
+                <span class="lang_ukr_txt">Конференц-зали</span>
+                <span class="lang_rus_txt">Конференц-залы</span>
+                <span class="lang_eng_txt">Conference rooms</span>
+              </a>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+              <a href="./infrastructure.html">
+                <span class="lang_ukr_txt">Інфраструктура</span>
+                <span class="lang_rus_txt">Инфраструктура</span>
+                <span class="lang_eng_txt">Infrastructure</span>
+              </a>
+              <a href="./news.html">
+                <span class="lang_ukr_txt">Новини</span>
+                <span class="lang_rus_txt">Новости</span>
+                <span class="lang_eng_txt">News</span>
+              </a>
+              <a href="./contact.html">
+                <span class="lang_ukr_txt">Контакти </span>
+                <span class="lang_rus_txt">Контакты</span>
+                <span class="lang_eng_txt">Contacts</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col col-xs-12 col-sm-12 col-md-3 number_adress">
+          <p class="number">+380(63)02-11-822 </p>
+          <p class="adress">
+            <span class="lang_ukr_txt">м. Київ, пр-т Степана Бандери 9Б</span>
+            <span class="lang_rus_txt">г. Киев, пр-т Степана Бандеры 9Б</span>
+            <span class="lang_eng_txt">Kyiv, Stepan Bandera Prospekt 9B</span>
+          </p>
+        </div>
+      </div>
+      <div class="row copyright">
+        <p>Copyright © 2021</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

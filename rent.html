@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/iconFont.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="js/jquery-3.6.0.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+	  <script type="text/javascript" src="js/main.js"></script>
+
+    <title>WAVE TOWER</title>
+  </head>
+  <body>
+    <header class="home-header ">
+      <div class="layout">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col col-2 p-0">
+              <div class="logo">
+                <a href="./index.html">
+                  <img src="./images/Logo.svg" alt="logo">
+                </a>
+              </div>
+            </div>
+            <div class="col col-10">
+              <nav class="headNav">
+                <ul>
+                  <li>
+                    <a href="./index.html" >
+                      <span class="lang_ukr_txt">
+                        Головна
+                      </span>
+                      <span class="lang_rus_txt">
+                        Главная
+                      </span>
+                      <span class="lang_eng_txt">
+                        Home Page
+                      </span>
+  
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./busines-center.html">
+                      <span class="lang_ukr_txt">
+                        Бізнес-центр
+                      </span>
+                      <span class="lang_rus_txt">
+                        Бизнес-центр
+                      </span>
+                      <span class="lang_eng_txt">
+                        Business center
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./rent.html" class="active">
+                      <span class="lang_ukr_txt">
+                        Оренда
+                      </span>
+                      <span class="lang_rus_txt">
+                        Аренда
+                      </span>
+                      <span class="lang_eng_txt">
+                        Rent
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./conferenc.html">
+                      <span class="lang_ukr_txt">
+                        Конференц-зали
+                      </span>
+                      <span class="lang_rus_txt">
+                        Конференц-залы
+                      </span>
+                      <span class="lang_eng_txt">
+                        Conference halls
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./infrastructure.html">
+                      <span class="lang_ukr_txt">
+                        Інфраструктура
+                      </span>
+                      <span class="lang_rus_txt">
+                        Инфраструктура
+                      </span>
+                      <span class="lang_eng_txt">
+                        Infrastructure
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./news.html">
+                       <span class="lang_ukr_txt">
+                        Новини
+                      </span>
+                      <span class="lang_rus_txt">
+                        Новости
+                      </span>
+                      <span class="lang_eng_txt">
+                        News
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="./contact.html">
+                       <span class="lang_ukr_txt">
+                        Контакти
+                      </span>
+                      <span class="lang_rus_txt">
+                        Контакты
+                      </span>
+                      <span class="lang_eng_txt">
+                        Contacts
+                      </span>
+                    </a>
+                  </li>
+                  <li class="lang ">
+                    <span class="box">
+                      <a class="dropbtn" id="head_langu" href="#">УКР</a>
+                      <ul class="dropdown-content">
+                        <a href="#" class="langu lang_eng">ENG</a>
+                        <a href="#" class="langu lang_rus">РУС</a>
+                        <a href="#" class="langu lang_ukr">УКР </a>
+                      </ul>
+                    </span>
+                  </li>
+                </ul>
+              </nav>
+  
+              <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox">
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+  
+                <ul class="menu__box">
+                  <!-- <li class="col left">
+                    <div class="logo">
+                      <a href="./index.html"><img src="images/logo.png" alt="img"></a>
+                    </div>
+                    <div class="title"><a href="./index.html"><h1>terra aucti</h1></a></div>
+                  </li> -->
+                  <li><a class="menu__item " href="./index.html"> <span class="lang_ukr_txt">
+                    Головна
+                  </span>
+                  <span class="lang_rus_txt">
+                    Главная
+                  </span>
+                  <span class="lang_eng_txt">
+                    Home Page
+                  </span></a></li>
+                  <li><a class="menu__item" href="./busines-center.html">
+                    <span class="lang_ukr_txt">
+                    Бізнес-центр
+                  </span>
+                  <span class="lang_rus_txt">
+                    Бизнес-центр
+                  </span>
+                  <span class="lang_eng_txt">
+                    Business center
+                  </span></a></li>
+                  <li><a class="menu__item active" href="./rent.html"> 
+                    <span class="lang_ukr_txt">
+                    Оренда
+                  </span>
+                  <span class="lang_rus_txt">
+                    Аренда
+                  </span>
+                  <span class="lang_eng_txt">
+                    Rent
+                  </span></a></li>
+                  <li><a class="menu__item" href="./conferenc.html">
+                    <span class="lang_ukr_txt">
+                      Конференц-зали
+                    </span>
+                    <span class="lang_rus_txt">
+                      Конференц-залы
+                    </span>
+                    <span class="lang_eng_txt">
+                      Conference halls
+                    </span></a></li>
+                  <li><a class="menu__item" href="./infrastructure.html"> 
+                    <span class="lang_ukr_txt">
+                    Інфраструктура
+                  </span>
+                  <span class="lang_rus_txt">
+                    Инфраструктура
+                  </span>
+                  <span class="lang_eng_txt">
+                    Infrastructure
+                  </span></a></li>
+                  <li><a class="menu__item" href="./news.html">  
+                    <span class="lang_ukr_txt">
+                    Новини
+                  </span>
+                  <span class="lang_rus_txt">
+                    Новости
+                  </span>
+                  <span class="lang_eng_txt">
+                    News
+                  </span></a></li>
+                  <li><a class="menu__item" href="./contact.html"> 
+                    <span class="lang_ukr_txt">
+                    Контакти
+                  </span>
+                  <span class="lang_rus_txt">
+                    Контакты
+                  </span>
+                  <span class="lang_eng_txt">
+                    Contacts
+                  </span></a></li>
+                  <li class="langMob ">
+                    <span class="box">
+                      <a class="dropbtn" id="head_langu" href="#">УКР</a>
+                      <ul class="dropdown-content">
+                        <a href="#" class="langu lang_eng">ENG</a>
+                        <a href="#" class="langu lang_rus">РУС</a>
+                        <a href="#" class="langu lang_ukr">УКР </a>
+                      </ul>
+                    </span>
+                  </li>
+                </ul>
+              </div>
+  
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </header>
+    <main class="home-main">
+      <div class="layout layout_header_width">
+        <!-- <div id="scrollNav">
+          <a href="#heading" class="active"><p class="txt">Wave tower</p><span></span></a>
+          <a href="#specifications"><p class="txt">Характеристики</p><span></span></a>
+          <a href="#panorama"><p class="txt">панорама</p><span></span></a>
+          <a href="#news"><p class="txt">новини</p><span></span></a>
+          <a href="#map"><p class="txt">карта</p><span></span></a>
+        </div> -->
+        <div class="firstBlock">
+          <div class="container">
+           <div class="row">
+            <h1 class="lang_ukr_txt">ОРЕНДА</h1>
+            <h1 class="lang_rus_txt">АРЕНДА</h1>
+            <h1 class="lang_eng_txt">RENT</h1>
+          </div>
+          </div>
+          </div>
+        <div class="container">
+          <div class="row padBot-80 ">
+            <p class="lang_ukr_txt">
+              Офісні приміщення із панорамними вікнами, сучасним ремонтом та мальовничим видом. <br>
+              Достатньо простору для комофортної роботи від 50-ти працівників. 
+            </p>
+            <p class="lang_rus_txt">
+              Офисные помещения с панорамными окнами, современным ремонтом и живописным видом. <br>
+              Достаточно пространства для комфортной работы от 50-ти работников. В офисе имеется собственный санузел, кухня, кабинеты и переговорные комнаты.
+
+            </p>
+            <p class="lang_eng_txt">
+              Office space with panoramic windows, modern renovation, and scenic views. <br>
+There is enough space for comfortable work from 50 employees. The office has its own bathroom, kitchen, offices, and meeting rooms.
+ 
+            </p>
+            <a href="./rentFloor.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div class="imgBox">
+                <img src="./images/rent-img.png" alt="">
+                <div class="aboutCard">
+                  <div class="aboutRent">
+                    <h3 class="name">
+                      <span class="lang_ukr_txt">1 ПОВЕРХ</span>
+                      <span class="lang_rus_txt">1 ЭТАЖ</span>
+                      <span class="lang_eng_txt">1 FLOOR</span>
+                      
+                    </h3>
+                    <span class="descr">
+                      862 M2 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="./rentFloor2.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div class="imgBox">
+                <img src="./images/rent-img.png" alt="">
+                <div class="aboutCard">
+                  <div class="aboutRent">
+                    <h3 class="name">
+                      <span class="lang_ukr_txt">2 ПОВЕРХ</span>
+                      <span class="lang_rus_txt">2 ЭТАЖ</span>
+                      <span class="lang_eng_txt">2 FLOOR</span>
+                    </h3>
+                    <span class="descr">
+                      862 M2 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="./rentFloor3.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div class="imgBox">
+                <img src="./images/rent-img.png" alt="">
+                <div class="aboutCard">
+                  <div class="aboutRent">
+                    <h3 class="name">
+                      <span class="lang_ukr_txt">3 ПОВЕРХ</span>
+                      <span class="lang_rus_txt">3 ЭТАЖ</span>
+                      <span class="lang_eng_txt">3 FLOOR</span>
+                    </h3>
+                    <span class="descr">
+                      862 M2 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="./rentFloor4.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div class="imgBox">
+                <img src="./images/rent-img.png" alt="">
+                <div class="aboutCard">
+                  <div class="aboutRent">
+                    <h3 class="name">
+                      <span class="lang_ukr_txt">4 ПОВЕРХ</span>
+                      <span class="lang_rus_txt">4 ЭТАЖ</span>
+                      <span class="lang_eng_txt">4 FLOOR</span>
+                    </h3>
+                    <span class="descr">
+                      862 M2 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="./rentFloor5.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div class="imgBox">
+                <img src="./images/rent-img.png" alt="">
+                <div class="aboutCard">
+                  <div class="aboutRent">
+                    <h3 class="name">
+                      <span class="lang_ukr_txt">5 ПОВЕРХ</span>
+                      <span class="lang_rus_txt">5 ЭТАЖ</span>
+                      <span class="lang_eng_txt">5 FLOOR</span>
+                    </h3>
+                    <span class="descr">
+                      862 M2 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="./rentFloor6.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div class="imgBox">
+                <img src="./images/rent-img.png" alt="">
+                <div class="aboutCard">
+                  <div class="aboutRent">
+                    <h3 class="name">
+                      <span class="lang_ukr_txt">6 ПОВЕРХ</span>
+                      <span class="lang_rus_txt">6 ЭТАЖ</span>
+                      <span class="lang_eng_txt">6 FLOOR</span>
+                    </h3>
+                    <span class="descr">
+                      862 M2 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="./rentFloor7.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div class="imgBox">
+                <img src="./images/rent-img.png" alt="">
+                <div class="aboutCard">
+                  <div class="aboutRent">
+                    <h3 class="name">
+                      <span class="lang_ukr_txt">7 ПОВЕРХ</span>
+                      <span class="lang_rus_txt">7 ЭТАЖ</span>
+                      <span class="lang_eng_txt">7 FLOOR</span>
+                    </h3>
+                    <span class="descr">
+                      862 M2 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="./rentFloor8.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div class="imgBox">
+                <img src="./images/rent-img.png" alt="">
+                <div class="aboutCard">
+                  <div class="aboutRent">
+                    <h3 class="name">
+                      <span class="lang_ukr_txt">8 ПОВЕРХ</span>
+                      <span class="lang_rus_txt">8 ЭТАЖ</span>
+                      <span class="lang_eng_txt">8 FLOOR</span>
+                    </h3>
+                    <span class="descr">
+                      862 M2 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="./rentFloor9.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div class="imgBox">
+                <img src="./images/rent-img.png" alt="">
+                <div class="aboutCard">
+                  <div class="aboutRent">
+                    <h3 class="name">
+                      <span class="lang_ukr_txt">9 ПОВЕРХ</span>
+                      <span class="lang_rus_txt">9 ЭТАЖ</span>
+                      <span class="lang_eng_txt">9 FLOOR</span>
+                    </h3>
+                    <span class="descr">
+                      862 M2 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="./rentFloor10.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div class="imgBox">
+                <img src="./images/rent-img.png" alt="">
+                <div class="aboutCard">
+                  <div class="aboutRent">
+                    <h3 class="name">
+                      <span class="lang_ukr_txt">10 ПОВЕРХ</span>
+                      <span class="lang_rus_txt">10 ЭТАЖ</span>
+                      <span class="lang_eng_txt">10 FLOOR</span>
+                    </h3>
+                    <span class="descr">
+                      862 M2 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="./rentFloor11.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div class="imgBox">
+                <img src="./images/rent-img.png" alt="">
+                <div class="aboutCard">
+                  <div class="aboutRent">
+                    <h3 class="name">
+                      <span class="lang_ukr_txt">11 ПОВЕРХ</span>
+                      <span class="lang_rus_txt">11 ЭТАЖ</span>
+                      <span class="lang_eng_txt">11 FLOOR</span>
+                    </h3>
+                    <span class="descr">
+                      862 M2 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="./rentFloor12.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div class="imgBox">
+                <img src="./images/rent-img.png" alt="">
+                <div class="aboutCard">
+                  <div class="aboutRent">
+                    <h3 class="name">
+                      <span class="lang_ukr_txt">12 ПОВЕРХ</span>
+                      <span class="lang_rus_txt">12 ЭТАЖ</span>
+                      <span class="lang_eng_txt">12 FLOOR</span>
+                    </h3>
+                    <span class="descr">
+                      862 M2 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="./rentFloor13.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div class="imgBox">
+                <img src="./images/rent-img.png" alt="">
+                <div class="aboutCard">
+                  <div class="aboutRent">
+                    <h3 class="name">
+                      <span class="lang_ukr_txt">13 ПОВЕРХ</span>
+                      <span class="lang_rus_txt">13 ЭТАЖ</span>
+                      <span class="lang_eng_txt">13 FLOOR</span>
+                    </h3>
+                    <span class="descr">
+                      862 M2 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="./rentFloor14.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div class="imgBox">
+                <img src="./images/rent-img.png" alt="">
+                <div class="aboutCard">
+                  <div class="aboutRent">
+                    <h3 class="name">
+                      <span class="lang_ukr_txt">14 ПОВЕРХ</span>
+                      <span class="lang_rus_txt">14 ЭТАЖ</span>
+                      <span class="lang_eng_txt">14 FLOOR</span>
+                    </h3>
+                    <span class="descr">
+                      862 M2 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="./rentFloor15.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div class="imgBox">
+                <img src="./images/rent-img.png" alt="">
+                <div class="aboutCard">
+                  <div class="aboutRent">
+                    <h3 class="name">
+                      <span class="lang_ukr_txt">15 ПОВЕРХ</span>
+                      <span class="lang_rus_txt">15 ЭТАЖ</span>
+                      <span class="lang_eng_txt">15 FLOOR</span>
+                    </h3>
+                    <span class="descr">
+                      862 M2 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="./rentFloor16.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div class="imgBox">
+                <img src="./images/rent-img.png" alt="">
+                <div class="aboutCard">
+                  <div class="aboutRent">
+                    <h3 class="name">
+                      <span class="lang_ukr_txt">16 ПОВЕРХ</span>
+                      <span class="lang_rus_txt">16 ЭТАЖ</span>
+                      <span class="lang_eng_txt">16 FLOOR</span>
+                    </h3>
+                    <span class="descr">
+                      862 M2 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="./rentFloor17.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div class="imgBox">
+                <img src="./images/rent-img.png" alt="">
+                <div class="aboutCard">
+                  <div class="aboutRent">
+                    <h3 class="name">
+                      <span class="lang_ukr_txt">17 ПОВЕРХ</span>
+                      <span class="lang_rus_txt">17 ЭТАЖ</span>
+                      <span class="lang_eng_txt">17 FLOOR</span>
+                    </h3>
+                    <span class="descr">
+                      862 M2 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="./rentFloor18.html" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 card">
+              <div class="imgBox">
+                <img src="./images/rent-img.png" alt="">
+                <div class="aboutCard">
+                  <div class="aboutRent">
+                    <h3 class="name">
+                      <span class="lang_ukr_txt">18 ПОВЕРХ</span>
+                      <span class="lang_rus_txt">18 ЭТАЖ</span>
+                      <span class="lang_eng_txt">18 FLOOR</span>
+                    </h3>
+                    <span class="descr">
+                      862 M2 
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          
+        </div>
+                
+        
+      </div>
+      <div class="layout contactForm-bg layout_bg_form">
+        <div class="container">
+          <div class="row">
+                <div class="contactForm">
+                  <div class="col-12 col-sm-12 col-md-8 col-lg-5">
+                    <div class="block_complited_form">
+                      <div>
+                        <p>
+                          Дякуємо! <br>
+                          Заявка успішно відправлена.
+                        </p>
+                      </div>
+                        
+                    </div>
+                    <form class="form" id="main_form">
+                      <input type="text" name="name" id="name" placeholder="Ваше ім'я"  >
+                      <input type="email" name="mail" id="mail" placeholder="Ваш Email"  >
+                      <textarea name="massage" id="massage" placeholder="Повідомлення" ></textarea>
+                    
+                      <div id="error">
+                        <span class="lang_ukr_txt">Всі поля повинні бути заповнені коректно</span>
+                        <span class="lang_rus_txt">Все поля должны быть заполнены корректно</span>
+                        <span class="lang_eng_txt">All fields must be filled in correctly</span>
+                      </div>
+
+                      <div id="acept">
+                        <span class="lang_ukr_txt">Форма заповнена</span>
+                        <span class="lang_rus_txt">Форма заполнена</span>
+                        <span class="lang_eng_txt">Form completed</span>
+                      </div>
+
+                      <input type="submit" class="submit" id="button" value="Залишити заявку">
+                     </form>
+                  </div>
+                  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6">
+                    <h3 class="formComent">
+                      <span class="lang_ukr_txt">
+                        Якщо Ви бажаєте отримати додаткову інформацію щодо офісних приміщень, просимо залишити заявку.
+                      </span>
+                      <span class="lang_rus_txt">
+                        ЕСЛИ ВЫ ЖЕЛАЕТЕ ПОЛУЧИТЬ ДОПОЛНИТЕЛЬНУЮ ИНФОРМАЦИЮ ПО ПОВОДУ ОФИСНЫХ ПОМЕЩЕНИЙ, ПРОСИМ ОСТАВИТЬ ЗАЯВКУ.
+      
+                      </span>
+                      <span class="lang_eng_txt">
+                        IF YOU WISH TO RECEIVE FURTHER INFORMATION ABOUT OFFICE SPACE, PLEASE LEAVE THE APPLICATION FORM.
+      
+                      </span>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container-fluid">
+        <div class="row mobFooter">
+          <div class="col col-xs-12 col-sm-12 col-md-3">
+            <div class="logo">
+              <a href="./index.html">
+                <img src="./images/logo_footer.svg" alt="logo">
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-6 footerNav">
+            <div class="row">
+              <div class="col col-xs-12 col-sm-12 col-md-6">
+                <a href="./busines-center.html">
+                  
+                  <span class="lang_ukr_txt">Бізнес-центр </span>
+                  <span class="lang_rus_txt">Бизнес-центр</span>
+                  <span class="lang_eng_txt">Business centre</span>
+                </a>
+                <a href="./rent.html">
+                  <span class="lang_ukr_txt">Оренда</span>
+                  <span class="lang_rus_txt">Аренда</span>
+                  <span class="lang_eng_txt">Rent</span>
+                </a>
+                <a href="./conferenc.html">
+                  <span class="lang_ukr_txt">Конференц-зали</span>
+                  <span class="lang_rus_txt">Конференц-залы</span>
+                  <span class="lang_eng_txt">Conference rooms</span>
+                </a>
+              </div>
+              <div class="col-xs-12 col-sm-12 col-md-6">
+                <a href="./infrastructure.html">
+                  <span class="lang_ukr_txt">Інфраструктура</span>
+                  <span class="lang_rus_txt">Инфраструктура</span>
+                  <span class="lang_eng_txt">Infrastructure</span>
+                </a>
+                <a href="./news.html">
+                  <span class="lang_ukr_txt">Новини</span>
+                  <span class="lang_rus_txt">Новости</span>
+                  <span class="lang_eng_txt">News</span>
+                </a>
+                <a href="./contact.html">
+                  <span class="lang_ukr_txt">Контакти </span>
+                  <span class="lang_rus_txt">Контакты</span>
+                  <span class="lang_eng_txt">Contacts</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col col-xs-12 col-sm-12 col-md-3 number_adress">
+            <p class="number">+380(63)02-11-822 </p>
+            <p class="adress">
+              <span class="lang_ukr_txt">м. Київ, пр-т Степана Бандери 9Б</span>
+              <span class="lang_rus_txt">г. Киев, пр-т Степана Бандеры 9Б</span>
+              <span class="lang_eng_txt">Kyiv, Stepan Bandera Prospekt 9B</span>
+            </p>
+          </div>
+        </div>
+        <div class="row copyright">
+          <p>Copyright © 2021</p>
+        </div>
+      </div>
+    </footer>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
