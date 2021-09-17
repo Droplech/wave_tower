@@ -89,7 +89,11 @@ $(document).ready(function () {
         $('form #mail').attr("placeholder", "Your Email");
         $('form #massage').attr("placeholder", "Message");
         $('form #button').attr("value", "LEAVE APPLICATION");
-        $('.block_complited_form div p').html("Thanks! \<br>\ The application has been successfully sent.")
+        $('.block_complited_form div p').html("Thanks! \<br>\ The application has been successfully sent.");
+        $('#lang_specif').html("Specifications");
+        $('#lang_panorama').html("Panorama");
+        $('#lang_news').html("News");
+        $('#lang_map').html("Map");
         
     }
 
@@ -101,7 +105,11 @@ $(document).ready(function () {
         $('form #mail').attr("placeholder", "Ваш Email");
         $('form #massage').attr("placeholder", "Повідомлення");
         $('form #button').attr("value", "Залишити заявку");
-        $('.block_complited_form div p').html("Дякуємо! \<br>\ Заявка успішно відправлена.")
+        $('.block_complited_form div p').html("Дякуємо! \<br>\ Заявка успішно відправлена.");
+        $('#lang_specif').html("Характеристики");
+        $('#lang_panorama').html("Панорама");
+        $('#lang_news').html("Новини");
+        $('#lang_map').html("Карта");
     }
 
     function langRus () {
@@ -112,7 +120,11 @@ $(document).ready(function () {
         $('form #mail').attr("placeholder", "Ваш Email");
         $('form #massage').attr("placeholder", "Сообщение");
         $('form #button').attr("value", "ОСТАВИТЬ ЗАЯВКУ");
-        $('.block_complited_form div p').html("Спасибо! \<br>\ Заявка успешно отправлена.")
+        $('.block_complited_form div p').html("Спасибо! \<br>\ Заявка успешно отправлена.");
+        $('#lang_specif').html("Характеристики");
+        $('#lang_panorama').html("Панорама");
+        $('#lang_news').html("Новости");
+        $('#lang_map').html("Карта");
     }
 
     $('.lang_eng').click(function () {

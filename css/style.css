@@ -635,6 +635,22 @@ main .contactForm .form input,
 main .contactForm .form textarea{
     border-radius: 0 !important;
 }
+main .breadcrumb .breadcrumb-item{
+    font-size: none;
+}
+
+
+
+.innerPage ol li{
+    display: flex;
+}
+/* .breadcrumb-item+.breadcrumb-item::before{
+    padding-right: 0;
+    margin:0 5px;
+} */
+
+
+
 
 @media screen and (max-width:1440px){
     .home-main .news .rowSlider .slider .newsItem .descriptionn h4{
